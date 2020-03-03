@@ -2,7 +2,6 @@
 
 body{background-color: #f7eee2;}
 
-nav{background-color: #cfc1af;}
 /* sidemenu */
     *{
         margin: 0;
@@ -13,10 +12,6 @@ nav{background-color: #cfc1af;}
         font-family: bebas neue;
       }
       
-      body{
-         background-color: #f3f5f9;
-      }
-      
       .flexmenu{
         display: flex;
         position: relative;
@@ -25,7 +20,7 @@ nav{background-color: #cfc1af;}
       .flexmenu .sidemenu{
         width: 200px;
         height: 100%;
-        background: #4b4276;
+        background: #cfc1af;
         padding: 30px 0px;
         position: fixed;
       }
@@ -82,28 +77,6 @@ nav{background-color: #cfc1af;}
         border-top-right-radius: 5px;
       }
       
-      .flexmenu .main_content{
-        width: 100%;
-        margin-left: 200px;
-      }
-      
-      .flexmenu .main_content .header{
-        padding: 20px;
-        background: #fff;
-        color: #717171;
-        border-bottom: 1px solid #e0e4e8;
-      }
-      
-      .flexmenu .main_content .info{
-        margin: 20px;
-        color: #717171;
-        line-height: 25px;
-      }
-      
-      .flexmenu .main_content .info div{
-        margin-bottom: 20px;
-      }
-      
       @media (max-height: 500px){
         .social_media{
           display: none;
@@ -114,14 +87,10 @@ nav{background-color: #cfc1af;}
     margin-top: -10px;
 }
 
-
-.linkicons{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .icon{
-    height: 30px;}
+    height: 30px;
+    margin-top: 5px;
+}
 
 h1{
     margin-left: 50%;

@@ -2,28 +2,117 @@
 
 body{background-color: #f7eee2;}
 
-nav{background-color: #cfc1af;
-    width: 200px;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 20px;}
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
-.menu{list-style-type: none;
-display: flex;
-flex-direction: column;
-margin-top: -10px;}
+body{background-color: #f7eee2;}
 
-.linkmenu:hover{
-    color: #a21220;
-}
-
-a{text-decoration: none;}
-
-p{color: black;
-font-family: bebas neue;
-font-size: 21px;}
+nav{background-color: #cfc1af;}
+/* sidemenu */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: bebas neue;
+      }
+      
+      body{
+         background-color: #f3f5f9;
+      }
+      
+      .flexmenu{
+        display: flex;
+        position: relative;
+      }
+      
+      .flexmenu .sidemenu{
+        width: 200px;
+        height: 100%;
+        background: #4b4276;
+        padding: 30px 0px;
+        position: fixed;
+      }
+      
+      .flexmenu .sidemenu h2{
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      .flexmenu .sidemenu ul li{
+        padding: 15px;
+        border-bottom: 1px solid #bdb8d7;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        border-top: 1px solid rgba(255,255,255,0.05);
+      }    
+      
+      .flexmenu .sidemenu ul li a{
+        color: #bdb8d7;
+        display: block;
+      }
+      
+      .flexmenu .sidemenu ul li a .fas{
+        width: 25px;
+      }
+      
+      .flexmenu .sidemenu ul li:hover{
+        background-color: #594f8d;
+      }
+          
+      .flexmenu .sidemenu ul li:hover a{
+        color: #fff;
+      }
+       
+      .flexmenu .sidemenu .social_media{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      }
+      
+      .flexmenu .sidemenu .social_media a{
+        display: block;
+        width: 40px;
+        background: #594f8d;
+        height: 40px;
+        line-height: 45px;
+        text-align: center;
+        margin: 0 5px;
+        color: #bdb8d7;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      
+      .flexmenu .main_content{
+        width: 100%;
+        margin-left: 200px;
+      }
+      
+      .flexmenu .main_content .header{
+        padding: 20px;
+        background: #fff;
+        color: #717171;
+        border-bottom: 1px solid #e0e4e8;
+      }
+      
+      .flexmenu .main_content .info{
+        margin: 20px;
+        color: #717171;
+        line-height: 25px;
+      }
+      
+      .flexmenu .main_content .info div{
+        margin-bottom: 20px;
+      }
+      
+      @media (max-height: 500px){
+        .social_media{
+          display: none;
+        }
+      }
 
 .logo{width: 100%;
     margin-top: -10px;

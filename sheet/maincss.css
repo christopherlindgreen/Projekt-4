@@ -55,9 +55,12 @@ aside{
     margin-left: 400px;
     margin-top: 50px;
 
+}
+
 .kalender{
     position: relative;
     left: 25%;
     height: 700px;
     width: 1000px;
+    
 }

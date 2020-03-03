@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body{background-color: #f7eee2;}
+
+nav{background-color: #cfc1af;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;}
+
+.menu{list-style-type: none;
+display: flex;
+flex-direction: column;
+margin-top: -10px;}
+
+.linkmenu:hover{
+    color: #a21220;
+}
+
+a{text-decoration: none;}
+
+p{color: black;
+font-family: bebas neue;
+font-size: 21px;}
+
+.logo{width: 100%;
+    margin-top: -10px;
+}
+
+
+.linkicons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    height: 30px;}

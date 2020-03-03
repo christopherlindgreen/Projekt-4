@@ -149,3 +149,27 @@ aside{
     width: 1000px;
     
 }
+
+.flex-galleri{
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px 35px;
+	margin-left: 250px;
+	margin-top: 200px;
+	margin-right: 50px;
+
+}
+
+.flex-galleri > div > img{
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.flex-galleri > div > img:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.container{
+	max-width: 760px;
+}

@@ -152,8 +152,8 @@ aside{
 
 .flex-galleri{
 	display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px 35px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px 35px;
 	margin-left: 250px;
 	margin-top: 200px;
 	margin-right: 50px;

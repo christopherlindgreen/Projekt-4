@@ -52,14 +52,13 @@ h1{
 
 aside{
     display: flex;
-    margin-left: 400px;
-    margin-top: 50px;
+    align-content: center;
 
 }
 
 .kalender{
     position: relative;
-    left: 25%;
+    left: 20%;
     height: 700px;
     width: 1000px;
     

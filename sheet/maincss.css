@@ -37,3 +37,21 @@ font-size: 21px;}
 
 .icon{
     height: 30px;}
+
+h1{
+    text-align: center;
+    font-family: bebas neue;
+    font-size: 50px;
+}
+
+.hjerni{
+    width: 200px;
+    height: auto;
+    margin:
+}
+
+aside{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+}

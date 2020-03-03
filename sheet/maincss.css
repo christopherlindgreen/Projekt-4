@@ -37,3 +37,18 @@ font-size: 21px;}
 
 .icon{
     height: 30px;}
+
+
+.kalender{
+    position: relative;
+    left: 25%;
+    height: 700px;
+    width: 1000px;
+}
+
+
+.kald{
+    position: relative;
+    left: 50%;
+    padding-bottom: 20px;
+}

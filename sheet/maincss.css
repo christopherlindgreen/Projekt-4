@@ -124,9 +124,10 @@ nav{background-color: #cfc1af;}
     height: 30px;}
 
 h1{
-    text-align: center;
+    margin-left: 50%;
     font-family: bebas neue;
-    font-size: 50px;
+    font-size: 40px;
+    color: #4b4276;
 }
 
 .hjerni{

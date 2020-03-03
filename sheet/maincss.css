@@ -25,13 +25,6 @@ body{background-color: #f7eee2;}
         position: fixed;
       }
       
-      .flexmenu .sidemenu h2{
-        color: #fff;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 30px;
-      }
-      
       .flexmenu .sidemenu ul li{
         padding: 15px;
         border-bottom: 1px solid #bdb8d7;
@@ -40,7 +33,7 @@ body{background-color: #f7eee2;}
       }    
       
       .flexmenu .sidemenu ul li a{
-        color: #bdb8d7;
+        color: #2f2f2f;
         display: block;
       }
       
@@ -49,11 +42,11 @@ body{background-color: #f7eee2;}
       }
       
       .flexmenu .sidemenu ul li:hover{
-        background-color: #594f8d;
+        background-color: #f7eee2;
       }
           
       .flexmenu .sidemenu ul li:hover a{
-        color: #fff;
+        color: #2f2f2f;
       }
        
       .flexmenu .sidemenu .social_media{
@@ -67,12 +60,10 @@ body{background-color: #f7eee2;}
       .flexmenu .sidemenu .social_media a{
         display: block;
         width: 40px;
-        background: #594f8d;
         height: 40px;
         line-height: 45px;
         text-align: center;
         margin: 0 5px;
-        color: #bdb8d7;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
       }

@@ -6,7 +6,64 @@
             <link rel="stylesheet" href="sheet/maincss.css">
             <title>Odense Skakklub</title>
             <script src="sheet/mainjavascript.js" defer> </script>
-        </head>
+		</head>
+		
+
+		<script>
+			var fname, lname, gender, country;
+			function _(x){
+				return document.getElementById(x);
+			}
+			function processPhase1(){
+				fname = _("firstname").value;
+				lname = _("lastname").value;
+				if(fname.length > 2 && lname.length > 2){
+					_("phase1").style.display = "none";
+					_("phase2").style.display = "block";
+					_("progressBar").value = 33;
+					_("status").innerHTML = "Phase 2 of 3";
+				} else {
+					alert("Udfyld venligst felterne");	
+				}
+			}
+			function processPhase2(){
+				gender = _("gender").value;
+				if(gender.length > 0){
+					_("phase2").style.display = "none";
+					_("phase3").style.display = "block";
+					_("progressBar").value = 66;
+					_("status").innerHTML = "Phase 3 of 3";
+				} else {
+					alert("Please choose your gender");	
+				}
+			}
+			function processPhase3(){
+				country = _("country").value;
+				if(country.length > 0){
+					_("phase3").style.display = "none";
+					_("show_all_data").style.display = "block";
+					_("display_fname").innerHTML = fname;
+					_("display_lname").innerHTML = lname;
+					_("display_gender").innerHTML = gender;
+					_("display_country").innerHTML = country;
+					_("progressBar").value = 100;
+					_("status").innerHTML = "Data Overview";
+				} else {
+					alert("Please choose your country");	
+				}
+			}
+			function submitForm(){
+				
+				
+				_("multiphase").submit();
+				alert("Vi behandler nu din indmelding og konktakter dig herefter");
+			}
+			</script>
+
+
+
+
+
         <body>
             <div class="flexmenu">
                 <div class="sidemenu">
@@ -23,6 +80,46 @@
                       <a target="blank" href="http://www.skak.dk/"><img class="icon" src="img/dsu-logo.png" alt="Link til dansk skakunion"></a>
                       <a target="blank" href="#"><img class="icon" src="img/youtube.png" alt="Link til youtube"></a>
                   </div>
-                </div>
+				</div>
+				
+				<div class="indmelding">
+				<progress id="progressBar" value="0" max="100" style="width:250px;"></progress>
+				<h3 id="status">Phase 1 of 3</h3>
+				<form id="multiphase" onsubmit="return false">
+				  <div id="phase1">
+					Fornavn:   <input id="firstname" name="firstname"><br>
+					Efternavn: <input id="lastname" name="lastname"><br>
+					<button onclick="processPhase1()">Forsæt</button>
+				  </div>
+				  <div id="phase2">
+					Gender: <select id="gender" name="gender">
+					  <option value=""></option>
+					  <option value="m">Male</option>
+					  <option value="f">Female</option>
+					</select><br>
+					<button onclick="processPhase2()">Forsæt</button>
+				  </div>
+				  <div id="phase3">
+					Country: <select id="country" name="country">
+					  <option value="United States">United States</option>
+					  <option value="India">India</option>
+					  <option value="United Kingdom">United Kingdom</option>
+					</select><br>
+					<button onclick="processPhase3()">Forsæt</button>
+				  </div>
+				  <div id="show_all_data">
+					Fornavn: <span id="display_fname"></span> <br>
+					Efternavn: <span id="display_lname"></span> <br>
+					Gender: <span id="display_gender"></span> <br>
+					Country: <span id="display_country"></span> <br>
+					<button onclick="submitForm()">Indmeld</button>
+				  </div>
+				</div>
+				</form>
+
+
+
+
+
         </body>
 </html>

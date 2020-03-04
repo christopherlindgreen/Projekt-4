@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sheet/maincss.css">
     <title>Odense Skakklub </title>
-    <script src="sheet/mainjavascript.js" defer> </script>
+    <script src="sheet/mainjavascript.js" defer> 
+    </script>
+    
 </head>
 <body>
     <div class="flexmenu">
@@ -26,26 +28,15 @@
         </div>
         <h1>Kontakt os!</h1>
         <aside>
-            <img class="hjerni" src="img/hjerni.png" alt="billede af hjerni">
+            <img class="hjerni" src="img/brainpoint.png" alt="billede af hjerni">
+
+            <form id="my_form" onsubmit="submitForm(); return false;">
+                <p><input id="n" placeholder="Navn" required></p>
+                <p><input id="e" placeholder="Email Addresse" type="email" required></p>
+                <textarea id="m" placeholder="Skriv din besked her" rows="8" required></textarea>
+                <p><input id="mybtn" type="submit" value="Send besked"> <span id="status"></span></p>
+              </form>
+        </aside>
         
-            <div class="kontaktos">
-            <p class="kontakt">
-            Kontakt os på følgende
-            </p>
-        
-            <p class="kontakt">
-            Telefon: +45 40 80 45 27
-            </p>
-        
-            <p class="kontakt">
-            Mail: Lars.petersen@kruuse.com
-            </p>
-        
-            <p class="kontakt">
-            Derudover kan vi kontaktes på Facebook
-            </p>
-            </div>
-        
-            </aside>
 </body>
 </html>

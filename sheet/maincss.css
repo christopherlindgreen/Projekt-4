@@ -283,76 +283,12 @@ aside{
   transition: all ease-in-out 100ms;
 }
 /*slideshow til forside*/
+
 .billede{
+  width: 100%;
+  height: 68%;
   object-fit: cover;
-  width: 100%;
-  height: 467px;
-}  
-.slideshow{
-    width: 100%;
-    position: relative;
-    margin: auto;
-    margin-left: 200px;
-  }
-
-.tal{
-  position: absolute;
-  padding: 8px 12px;
-  color: #ffffff;
 }
-.nyhed{
-  text-align: center;
-  font-size: 18px;
-  position: absolute;
-  width: 100%;
-  padding: 8px 16px;
-  bottom: 8px;
-  color: #ffffff;
-}
-.tilbage, .frem{
-  position: absolute;
-  top: 50%;
-  color: #ffffff;
-  padding: 10px 10px;
-  font-size: 18px;
-  border-radius: 0 3px 3px 0;
-  cursor: pointer;
-}
-.frem{
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.tilbage:hover, .frem:hover{
-  background: rgba(0, 0, 0, 8);
-
-}
-.slides{
-  display: none;
-  width: 100%;
-  object-fit: cover;
-  height: 68.3%;
-}  
-  .fade{
-    animation-name: fade;
-    animation-duration: 0.5s;
-  }
-
-  @keyframes fade{
-    from{opacity: 0.4;}
-    to{opacity: 1;}
-  }
-  .prikbox{
-    text-align: center;
-  }
-  .prikker{
-    width: 13px;
-    height: 13px;
-    display: inline-block;
-    background: gray;
-    padding: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
   
 
 form#multiphase{  border:#000 1px solid; padding:24px; width:350px; }

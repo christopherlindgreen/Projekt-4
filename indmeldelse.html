@@ -10,13 +10,17 @@
 		
 
 		<script>
-			var fname, lname, gender, country;
+			var fname, lname, email, gender, country;
 			function _(x){
 				return document.getElementById(x);
 			}
 			function processPhase1(){
 				fname = _("firstname").value;
 				lname = _("lastname").value;
+				email = _("email").value;
+
+				
+
 				if(fname.length > 2 && lname.length > 2){
 					_("phase1").style.display = "none";
 					_("phase2").style.display = "block";
@@ -44,10 +48,14 @@
 					_("show_all_data").style.display = "block";
 					_("display_fname").innerHTML = fname;
 					_("display_lname").innerHTML = lname;
+
+					_("display_email").innerHTML = email;
+					
+
 					_("display_gender").innerHTML = gender;
 					_("display_country").innerHTML = country;
 					_("progressBar").value = 100;
-					_("status").innerHTML = "Data Overview";
+					_("status").innerHTML = "Data Oversigt";
 				} else {
 					alert("Please choose your country");	
 				}
@@ -89,6 +97,9 @@
 				  <div id="phase1">
 					Fornavn:   <input id="firstname" name="firstname"><br>
 					Efternavn: <input id="lastname" name="lastname"><br>
+
+					E-mail:   <input id="email" name="email"><br>
+					
 					<button onclick="processPhase1()">Forsæt</button>
 				  </div>
 				  <div id="phase2">
@@ -110,6 +121,7 @@
 				  <div id="show_all_data">
 					Fornavn: <span id="display_fname"></span> <br>
 					Efternavn: <span id="display_lname"></span> <br>
+					E-mail: <span id="display_email"></span> <br>
 					Gender: <span id="display_gender"></span> <br>
 					Country: <span id="display_country"></span> <br>
 					<button onclick="submitForm()">Indmeld</button>

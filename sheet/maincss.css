@@ -110,12 +110,13 @@ aside{
   margin: 20px;
   
 }
-
+/* Kalender */
 .kalender{
-    position: relative;
+    position: fixed;
     left: 20%;
     height: 700px;
-    width: 1000px;
+    width: 1200px;
+    top: 100px;
     
 }
 

@@ -131,12 +131,48 @@ aside{
 }
 
 /*slideshow til forside*/
-  .slideshow{
-    margin-left: 200px;
-    max-width: 100%;
-  }
-  .slides{
+.billede{
+  object-fit: cover;
+  width: 100%;
+  height: 467px;
+}  
+.slideshow{
     width: 100%;
-    object-fit: cover;
-    height: 68.3%;
+    position: relative;
+    margin: auto;
+    margin-left: 200px;
   }
+.slides{
+  display: none;
+}
+.tal{
+  position: absolute;
+  padding: 8px 12px;
+  color: #ffffff;
+}
+.nyhed{
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  padding: 8px 16px;
+  bottom: 8px;
+  color: #ffffff;
+}
+.tilbage, .frem{
+  position: absolute;
+  top: 50%;
+  color: #ffffff;
+  padding: 10px 10px;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+.frem{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.tilbage:hover, .next:hover{
+  background: rgba(0, 0, 0, 8);
+
+}

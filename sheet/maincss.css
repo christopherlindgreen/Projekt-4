@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
 
 body{background-color: #f7eee2;}
 
@@ -35,6 +36,7 @@ body{background-color: #f7eee2;}
       .flexmenu .sidemenu ul li a{
         color: #2f2f2f;
         display: block;
+        font-size: 20px;
       }
       
       .flexmenu .sidemenu ul li a .fas{
@@ -84,30 +86,105 @@ body{background-color: #f7eee2;}
 }
 
 h1{
+    margin-top: 20px;
     margin-left: 50%;
+    margin-right: -200px;
     font-family: bebas neue;
     font-size: 40px;
-    color: pink;
+    color: #2f2f2f;
 }
 
+
+/* Kontakt side */
 .hjerni{
-    width: 200px;
+    width: 500px;
     height: auto;
-    margin: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 aside{
     display: flex;
-    align-content: center;
-
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: -300px;            
 }
 
-.kalender{
-    position: relative;
-    left: 20%;
-    height: 700px;
-    width: 1000px;
-    
+
+#my_form{
+  margin-top: 120px;
+}
+
+#m{
+  font-family: Spartan;
+  background-color:#cfc1af;
+  padding: 10px 15px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+  border: #cfc1af;
+  width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#e{
+  font-family: Spartan;
+  background-color:#cfc1af;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+  border: #cfc1af;
+  width: 200px;
+}
+
+#n{
+  font-family: Spartan;
+  background-color:#cfc1af;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+  border: #cfc1af;
+  width: 200px;
+}
+
+#mybtn{
+  font-family: Spartan;
+  background-color: #f7eee2;
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 5px;
+  border: #cfc1af;
+  border-style: solid;
+}
+
+#mybtn:hover{
+  background-color: #cfc1af;
+  cursor: pointer;
+  color:#ffffff;
+}
+
+
+/* Kalender */
+.kalender {
+  display: flex;
+  margin-left: 15%;
+  top: 100px;
+}
+
+.reskald {
+  padding-bottom: 60%;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.reskald .kalender{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 80%;
+    height: 80%;
+  
 }
 
 #index-gallery {
@@ -205,3 +282,13 @@ aside{
   opacity: 0.8;
   transition: all ease-in-out 100ms;
 }
+/*slideshow til forside*/
+  .slideshow{
+    margin-left: 200px;
+    max-width: 100%;
+  }
+  .slides{
+    width: 100%;
+    object-fit: cover;
+    height: 68.3%;
+  }

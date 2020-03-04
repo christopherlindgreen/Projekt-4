@@ -36,6 +36,7 @@ body{background-color: #f7eee2;}
       .flexmenu .sidemenu ul li a{
         color: #2f2f2f;
         display: block;
+        font-size: 20px;
       }
       
       .flexmenu .sidemenu ul li a .fas{
@@ -121,6 +122,9 @@ aside{
   border-radius: 10px 10px 10px 10px;
   margin: 5px;
   border: #cfc1af;
+  width: 200px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 #e{
@@ -130,6 +134,7 @@ aside{
   border-radius: 10px 10px 10px 10px;
   margin: 5px;
   border: #cfc1af;
+  width: 200px;
 }
 
 #n{
@@ -139,6 +144,7 @@ aside{
   border-radius: 10px 10px 10px 10px;
   margin: 5px;
   border: #cfc1af;
+  width: 200px;
 }
 
 #mybtn{

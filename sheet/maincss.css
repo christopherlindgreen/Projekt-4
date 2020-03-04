@@ -113,7 +113,8 @@ aside{
 /* Kalender */
 .kalender{
   position: relative;
-  margin-left: -76%;
+  margin-left: -50%;
+  margin-right: 200px;
   height: 700px;
   width: 1100px;
   left: 20%;

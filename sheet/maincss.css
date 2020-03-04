@@ -294,9 +294,7 @@ aside{
     margin: auto;
     margin-left: 200px;
   }
-.slides{
-  display: none;
-}
+
 .tal{
   position: absolute;
   padding: 8px 12px;
@@ -324,17 +322,21 @@ aside{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.tilbage:hover, .next:hover{
+.tilbage:hover, .frem:hover{
   background: rgba(0, 0, 0, 8);
 
 }
-  .slides{
-    width: 100%;
-    object-fit: cover;
-    height: 68.3%;
+.slides{
+  display: none;
+  width: 100%;
+  object-fit: cover;
+  height: 68.3%;
+}  
+  .fade{
     animation-name: fade;
     animation-duration: 0.5s;
   }
+
   @keyframes fade{
     from{opacity: 0.4;}
     to{opacity: 1;}

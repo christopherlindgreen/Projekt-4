@@ -187,26 +187,101 @@ aside{
   
 }
 
-.flex-galleri{
-	display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 30px 35px;
-	margin-left: 250px;
-	margin-top: 200px;
-	margin-right: 50px;
+#index-gallery {
+  display: grid;
+  grid-template-rows: auto;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px 30px;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 50px;
+  grid-template-areas: 
+  "gallery-p gallery-p gallery-p"
+  "gallery-h2 gallery-h2 gallery-h2"
+  "img1 img2 img3"
+  "img4 img5 img6";
 
 }
 
-.flex-galleri > div > img{
+#index-gallery .gallery-img {
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+#index-gallery > div > img{
 	opacity: 0.8;
 	transition: 1s;
 }
 
-.flex-galleri > div > img:hover{
+#index-gallery > div > img:hover{
 	opacity: 1;
 	transform: scale(1.1);
 }
 
+#index-gallery p {
+  grid-area: gallery-p;
+}
+
+#index-gallery h2 {
+  grid-area: gallery-h2;
+}
+
+#index-gallery .img1 {
+  grid-area: img1;
+  background-image: url(../img/14.png);
+}
+
+#index-gallery .img2 {
+  grid-area: img2;
+  background-image: url(../img/9.png);
+}
+
+#index-gallery .img3 {
+  grid-area: img3;
+  background-image: url(../img/8.png);
+}
+
+#index-gallery .img4 {
+  grid-area: img4;
+  background-image: url(../img/10.png);
+}
+
+#index-gallery .img5 {
+  grid-area: img5;
+  background-image: url(../img/11.png);
+}
+
+#index-gallery .img6 {
+  grid-area: img6;
+  background-image: url(../img/12.png);
+}
+
+.gallery-img div {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-img a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.gallery-img div:hover {
+  opacity: 0.8;
+  transition: all ease-in-out 100ms;
+}
 /*slideshow til forside*/
   .slideshow{
     margin-left: 200px;

@@ -93,32 +93,38 @@ h1{
 }
 
 .hjerni{
-    width: 300px;
+    width: 400px;
     height: auto;
-    justify-content: center;
-    margin-top: 200px
+    margin-top: 10px;
 }
 
 aside{
     display: flex;
     flex-direction: row;
-    margin-top: -50px;
+    margin-top: 100px;
     margin-left: -200px;            
 }
 
-.kontakt{
-  font-family: spartan;
-  font-size: 20px;
-  margin: 20px;
-  margin: 30px;
+
+#my_form{
+  margin-top: 150px;
 }
 
-.kontaktos{
-  justify-content: center;
-  margin-right: -200px;
-  margin-top: 210px;
-  margin-left: 50px;
+#m{
+  font-family: Spartan;
 }
+
+#e{
+  font-family: Spartan;
+}
+
+#n{
+  font-family: Spartan;
+}
+#mybtn{
+  font-family: Spartan;
+}
+
 /* Kalender */
 .kalender{
   position: relative;

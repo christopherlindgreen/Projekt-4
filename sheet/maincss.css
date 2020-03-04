@@ -121,12 +121,14 @@ aside{
 }
 /* Kalender */
 .kalender{
-    position: fixed;
-    left: 20%;
-    height: 700px;
-    width: 1200px;
-    top: 100px;
-    
+  position: relative;
+  margin-left: -50%;
+  margin-right: 200px;
+  height: 700px;
+  width: 1100px;
+  left: 20%;
+  top: 100px;
+  
 }
 
 .flex-galleri{

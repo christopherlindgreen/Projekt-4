@@ -332,8 +332,26 @@ aside{
     width: 100%;
     object-fit: cover;
     height: 68.3%;
+    animation-name: fade;
+    animation-duration: 0.5s;
   }
-
+  @keyframes fade{
+    from{opacity: 0.4;}
+    to{opacity: 1;}
+  }
+  .prikbox{
+    text-align: center;
+  }
+  .prikker{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: gray;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
 
 form#multiphase{  border:#000 1px solid; padding:24px; width:350px; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }

@@ -129,3 +129,14 @@ aside{
 	opacity: 1;
 	transform: scale(1.1);
 }
+
+/*slideshow til forside*/
+  .slideshow{
+    margin-left: 200px;
+    max-width: 100%;
+  }
+  .slides{
+    width: 100%;
+    object-fit: cover;
+    height: 68.3%;
+  }

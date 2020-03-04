@@ -87,7 +87,7 @@ h1{
     margin-left: 50%;
     font-family: bebas neue;
     font-size: 40px;
-    color: pink;
+    color: #2f2f2f;
 }
 
 .hjerni{
@@ -101,12 +101,13 @@ aside{
     align-content: center;
 
 }
-
+/* Kalender */
 .kalender{
-    position: relative;
+    position: fixed;
     left: 20%;
     height: 700px;
-    width: 1000px;
+    width: 1200px;
+    top: 100px;
     
 }
 

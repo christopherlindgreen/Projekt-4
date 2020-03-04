@@ -111,14 +111,25 @@ aside{
   
 }
 /* Kalender */
-.kalender{
-  position: relative;
-  margin-left: -50%;
-  margin-right: 200px;
-  height: 700px;
-  width: 1100px;
-  left: 20%;
+.kalender {
+  display: flex;
+  margin-left: 15%;
   top: 100px;
+}
+
+.reskald {
+  padding-bottom: 60%;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.reskald .kalender{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 80%;
+    height: 80%;
   
 }
 

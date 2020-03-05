@@ -197,7 +197,7 @@ var timer=null;
 function setTimer(){
     timer=setInterval(function () {
         plusSlides(1) ;
-    },3000);
+    },10000);
 }
 setTimer();
 function playPauseSlides() {

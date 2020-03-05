@@ -459,10 +459,25 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-top: 200px;
-  
-  justify-content: center;
+  margin-top: 150px;
 }
+
+.medlem{
+
+    background-color: #cfc1af;
+    width: 270px;
+    height: 380px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 190px;
+    padding: 20px;
+}
+
+.txt { font-family: Spartan;
+}
+
+
+
+
 
 /*slideshow til forside*/
 .galleryContainer{

@@ -383,12 +383,14 @@ form#multiphase{    font-family: Spartan;
     border-radius: 10px 10px 10px 10px;
     margin: 5px;
     border: #cfc1af;
-    width: 200px;; }
+    width: 300px;
+    height: 150px; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 #status {font-family: Spartan;}
 
-#phase1 {font-family: Spartan;}
+#phase1 {font-family: Spartan;
+}
 
 #phase2 {font-family: Spartan;}
 
@@ -405,6 +407,18 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 #display_gender {font-family: Spartan;}
 
 #display_member {font-family: Spartan;}
+
+button {  font-family: Spartan;
+    background-color: #f7eee2;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 5px;
+    border: #cfc1af;
+    border-style: solid;}
+
+button:hover {  background-color: #cfc1af;
+    cursor: pointer;
+    color:#ffffff;}
 
 .indmelding{
   margin-left: 500px;

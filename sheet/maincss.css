@@ -579,11 +579,17 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
   font-size: 40px;
   color: #2f2f2f;
   position: absolute;
-  margin: 600px -200px 0px 53.5%;
+  margin: 50% -200px 0px 52.5%;
 }
 #news{
+  margin: 56% -200px 0px 250px;
+  position: absolute;
 }
-
+.broed{
+  margin: 60% 0px 0px 250px;
+  position: absolute;
+  font-family: Spartan;
+}
 .captionText{
   font-family: Spartan;
 }

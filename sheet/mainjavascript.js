@@ -98,7 +98,7 @@ function changeImg(changeDir) {
 function _(id){ return document.getElementById(id); }
 function submitForm(){
   
-  alert("Din besked er sendt");
+  alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
 	_("mybtn").disabled = true;
 	_("status").innerHTML = '';
 	var formdata = new FormData();
@@ -197,7 +197,7 @@ var timer=null;
 function setTimer(){
     timer=setInterval(function () {
         plusSlides(1) ;
-    },3000);
+    },10000);
 }
 setTimer();
 function playPauseSlides() {
@@ -211,3 +211,4 @@ function playPauseSlides() {
         playPauseBtn.style.backgroundPositionY="-33px"
     }
 }
+/* slideshow slut */

@@ -474,7 +474,6 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
   bottom: 0;
   z-index: 1;
   color: white;
-  font-family: sans-serif;
   font-size: 20px;
   text-align: center;
   width: 100%;

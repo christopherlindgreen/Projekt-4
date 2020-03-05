@@ -459,8 +459,9 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-top: 100px;
-  margin-left: -300px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /*slideshow til forside*/

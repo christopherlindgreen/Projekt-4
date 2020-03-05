@@ -343,8 +343,15 @@ aside{
   opacity: 0.8;
 }
 
+/*indmelding*/
 
-form#multiphase{  border:#000 1px solid; padding:24px; width:350px; }
+form#multiphase{    font-family: Spartan;
+    background-color:#cfc1af;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    border: #cfc1af;
+    width: 200px;; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 .indmelding{

@@ -206,6 +206,7 @@ aside{
 #index-gallery .gallery-img {
   background-repeat: no-repeat;
   height: 300px;
+  width: 100%;
   background-size: cover;
   background-position: center;
   cursor: pointer;

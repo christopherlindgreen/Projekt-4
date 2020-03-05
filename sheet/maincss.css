@@ -4,7 +4,7 @@
 body{background-color: #f7eee2;}
 
 /* sidemenu */
-    *{
+      *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -282,52 +282,72 @@ aside{
   opacity: 0.8;
   transition: all ease-in-out 100ms;
 }
-/*slideshow til forside*/
-.billede{
-  object-fit: cover;
-  width: 100%;
-  height: 467px;
-}  
-.slideshow{
-    width: 100%;
-    position: relative;
-    margin: auto;
-    margin-left: 200px;
-  }
-.slides{
-  display: none;
-}
-.tal{
-  position: absolute;
-  padding: 8px 12px;
-  color: #ffffff;
-}
-.nyhed{
-  text-align: center;
-  font-size: 18px;
-  position: absolute;
-  width: 100%;
-  padding: 8px 16px;
-  bottom: 8px;
-  color: #ffffff;
-}
-.tilbage, .frem{
-  position: absolute;
-  top: 50%;
-  color: #ffffff;
-  padding: 10px 10px;
-  font-size: 18px;
-  border-radius: 0 3px 3px 0;
+
+/* popup vindue når man klikker */
+.img-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
 }
-.frem{
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.tilbage:hover, .next:hover{
-  background: rgba(0, 0, 0, 8);
+
+.img-window img {
+  max-height: 80vh;
+  max-width: 80vw;
 
 }
+
+/* Næste billede */
+.img-btn-next {
+  display: block;
+  padding: 6px 10px;
+  margin-right: 400px;
+  border-radius: 4px;
+  background-color: black;
+  position: fixed;
+  top: 48vh;
+  z-index: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.img-btn-next:hover {
+  opacity: 0.8;
+}
+
+.img-btn-prev {
+  display: block;
+  padding: 6px 10px;
+  margin-left: 400px;
+  border-radius: 4px;
+  background-color: black;
+  position: fixed;
+  top: 48vh;
+  z-index: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.img-btn-prev:hover {
+  opacity: 0.8;
+}
+
+/*slideshow til forside*/
+  .slideshow{
+    margin-left: 200px;
+    max-width: 100%;
+  }
   .slides{
     width: 100%;
     object-fit: cover;
@@ -338,9 +358,9 @@ aside{
 form#multiphase{  border:#000 1px solid; padding:24px; width:350px; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
-
-
 .indmelding{
-    margin-left: 500px;
-    margin-top: 100px;
+  margin-left: 500px;
+  margin-top: 100px;
 }
+
+/*slideshow til forside*/

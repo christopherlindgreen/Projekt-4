@@ -27,10 +27,9 @@ function carousel() {
 
 // dette er en kontakt formular til kontakt siden
 function _(id){ return document.getElementById(id); }
-function submitForm()
-
-{
-  alert("din besked er sendt");
+function submitForm(){
+  
+  alert("Din besked er sendt");
 	_("mybtn").disabled = true;
 	_("status").innerHTML = '';
 	var formdata = new FormData();
@@ -42,11 +41,12 @@ function submitForm()
 	ajax.onreadystatechange = function() {
 		if(ajax.readyState == 4 && ajax.status == 200) {
 			if(ajax.responseText == "success"){
-				_("my_form").innerHTML = ''+_("n").value+'';
-			} else {
+        _("my_form").innerHTML = ''+_("n").value+'';
+          } else {
 				_("status").innerHTML = ajax.responseText;
 				_("mybtn").disabled = false;
 			}
 		}
 	}
-	ajax.send( formdata );}
+  ajax.send( formdata );
+}

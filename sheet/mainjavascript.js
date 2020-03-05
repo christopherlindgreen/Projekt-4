@@ -216,7 +216,7 @@ function playPauseSlides() {
 
 /*indmeldelse */
 
-		<script>
+		
 			var fname, lname, email, gender, member;
 			function _(x){
 				return document.getElementById(x);
@@ -270,5 +270,5 @@ function playPauseSlides() {
 				_("multiphase").submit();
 				alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
 			}
-			</script>
+			
 

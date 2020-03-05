@@ -69,6 +69,7 @@ body{background-color: #f7eee2;}
         margin: 0 5px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        overflow-y: hidden;
       }
       
       @media (max-height: 500px){

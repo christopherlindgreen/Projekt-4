@@ -165,24 +165,22 @@ aside{
 
 
 /* Kalender */
-.kalender {
-  display: flex;
-  margin-left: 15%;
-}
-
-.reskald {
-  padding-bottom: 60%;
-  overflow: hidden;
-}
-
-
-.reskald .kalender{
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 80%;
-    height: 70%;
   
+.reskald {
+  overflow: hidden;
+padding-top: 56.25%;
+position: relative;
+}
+
+
+.reskald iframe{
+  border: 0;
+  height: 80%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  margin-left: 220px;
 }
 
 #index-gallery {

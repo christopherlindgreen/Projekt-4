@@ -374,6 +374,10 @@ aside{
 
 /*indmelding*/
 
+#progressBar{
+  margin-bottom: 20px;
+}
+
 form#multiphase{    font-family: Spartan;
    
     padding: 10px 10px 10px 10px;
@@ -387,6 +391,14 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 #status {font-family: Spartan;}
 
 #phase1 {font-family: Spartan;
+}
+
+#gender {
+  font-family: Spartan;
+}
+
+#member {
+  font-family: Spartan;
 }
 
 #email {
@@ -433,6 +445,8 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 #display_member {font-family: Spartan;}
 
+option {font-family: Spartan;}
+
 button {  font-family: Spartan;
     background-color: #f7eee2;
     padding: 8px 8px 8px 8px;
@@ -446,8 +460,8 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-left: 500px;
   margin-top: 100px;
+  margin-left: -300px;
 }
 
 /*slideshow til forside*/

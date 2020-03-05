@@ -168,22 +168,20 @@ aside{
 .kalender {
   display: flex;
   margin-left: 15%;
-  top: 100px;
 }
 
 .reskald {
   padding-bottom: 60%;
-  height: 0;
   overflow: hidden;
 }
 
 
 .reskald .kalender{
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 0;
     width: 80%;
-    height: 80%;
+    height: 70%;
   
 }
 
@@ -197,7 +195,6 @@ aside{
   margin-left: 250px;
   margin-right: 50px;
   grid-template-areas: 
-  "gallery-p gallery-p gallery-p"
   "gallery-h2 gallery-h2 gallery-h2"
   "img1 img2 img3"
   "img4 img5 img6"

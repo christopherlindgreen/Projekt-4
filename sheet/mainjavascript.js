@@ -212,3 +212,63 @@ function playPauseSlides() {
     }
 }
 /* slideshow slut */
+
+
+/*indmeldelse */
+
+		<script>
+			var fname, lname, email, gender, member;
+			function _(x){
+				return document.getElementById(x);
+			}
+			function processPhase1(){
+				fname = _("firstname").value;
+				lname = _("lastname").value;
+				email = _("email").value;
+
+				
+
+				if(fname.length > 2 && lname.length > 2){
+					_("phase1").style.display = "none";
+					_("phase2").style.display = "block";
+					_("progressBar").value = 33;
+					_("status").innerHTML = "Trin 2 af 3";
+				} else {
+					alert("Udfyld venligst felterne");	
+				}
+			}
+			function processPhase2(){
+				gender = _("gender").value;
+				if(gender.length > 0){
+					_("phase2").style.display = "none";
+					_("phase3").style.display = "block";
+					_("progressBar").value = 66;
+					_("status").innerHTML = "Trin 3 af 3";
+				} else {
+					alert("Vælg venligst dit køn");	
+				}
+			}
+			function processPhase3(){
+				member = _("member").value;
+				if(member.length > 0){
+					_("phase3").style.display = "none";
+					_("show_all_data").style.display = "block";
+					_("display_fname").innerHTML = fname;
+					_("display_lname").innerHTML = lname;
+					_("display_email").innerHTML = email;
+					_("display_gender").innerHTML = gender;
+					_("display_member").innerHTML = member;
+					_("progressBar").value = 100;
+					_("status").innerHTML = "Dine oplysninger";
+				} else {
+					alert("Vælg venligst dit medlemsskab");	
+				}
+			}
+			function submitForm(){
+				
+				
+				_("multiphase").submit();
+				alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
+			}
+			</script>
+

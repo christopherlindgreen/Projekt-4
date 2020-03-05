@@ -308,7 +308,7 @@ aside{
 .img-btn-next {
   display: block;
   padding: 6px 10px;
-  margin-right: 400px;
+  margin-right: -150px;
   border-radius: 4px;
   background-color: black;
   position: fixed;
@@ -327,7 +327,7 @@ aside{
 .img-btn-prev {
   display: block;
   padding: 6px 10px;
-  margin-left: 400px;
+  margin-left: -150px;
   border-radius: 4px;
   background-color: black;
   position: fixed;
@@ -405,7 +405,7 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
   border-bottom-left-radius: 10px;
 }
 .galleryContainer .slideShowContainer .leftArrow:hover,.galleryContainer .slideShowContainer .rightArrow:hover{
-  background: #000000a8;
+  background: #cfc1af;
   cursor: pointer;
 }
 .galleryContainer .arrow{
@@ -463,7 +463,7 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
   margin-left: 5px;
   background-color: #bbb;
   cursor: pointer;
-  transition:background-color 0.5s;
+  transition:background-color 1s;
 }
 .galleryContainer #dotsContainer .dots:first-child{
   margin-left: 0;
@@ -500,13 +500,13 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 .galleryContainer .moveRightCurrentSlide{
   animation-name: moveRightCurrent;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-fill-mode:forwards;
 }
 .galleryContainer .moveRightPrevSlide{
   animation-name: moveRightPrev;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-fill-mode:forwards;
 }
@@ -520,7 +520,7 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 }
 .slideTextFromBottom {
   animation-name: slideTextFromBottom;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-timing-function: ease-out;
 }
 @keyframes slideTextFromBottom {
@@ -529,10 +529,17 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 }
 .slideTextFromTop {
   animation-name: slideTextFromTop;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-timing-function: ease-out;
 }
 @keyframes slideTextFromTop {
   from {opacity: 0;margin-top: -100px}
   to {opacity: 1;margin-top: 0px;}
+}
+#overskriftforside{
+  font-family: bebas neue;
+  font-size: 40px;
+  color: #2f2f2f;
+  position: absolute;
+  margin: 600px -200px 0px 53.5%;
 }

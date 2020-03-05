@@ -201,7 +201,8 @@ aside{
   "gallery-h2 gallery-h2 gallery-h2"
   "img1 img2 img3"
   "img4 img5 img6"
-  "img7 img8 img9";
+  "img7 img8 img9"
+  "img10 img11 img12";
 
 }
 
@@ -274,6 +275,21 @@ aside{
 #index-gallery .img9 {
   grid-area: img9;
   background-image: url(../img/20.jpg);
+}
+
+#index-gallery .img10 {
+  grid-area: img10;
+  background-image: url(../img/11.jpg);
+}
+
+#index-gallery .img11 {
+  grid-area: img11;
+  background-image: url(../img/10.jpg);
+}
+
+#index-gallery .img12 {
+  grid-area: img12;
+  background-image: url(../img/16.jpg);
 }
 
 .gallery-img div {

@@ -98,7 +98,7 @@ function changeImg(changeDir) {
 function _(id){ return document.getElementById(id); }
 function submitForm(){
   
-  alert("Din besked er sendt");
+  alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
 	_("mybtn").disabled = true;
 	_("status").innerHTML = '';
 	var formdata = new FormData();

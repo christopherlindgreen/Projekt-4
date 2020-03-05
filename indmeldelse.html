@@ -10,7 +10,7 @@
 		
 
 		<script>
-			var fname, lname, email, gender, country;
+			var fname, lname, email, gender, member;
 			function _(x){
 				return document.getElementById(x);
 			}
@@ -38,33 +38,30 @@
 					_("progressBar").value = 66;
 					_("status").innerHTML = "Trin 3 af 3";
 				} else {
-					alert("Please choose your gender");	
+					alert("Vælg venligst dit køn");	
 				}
 			}
 			function processPhase3(){
-				country = _("country").value;
-				if(country.length > 0){
+				member = _("member").value;
+				if(member.length > 0){
 					_("phase3").style.display = "none";
 					_("show_all_data").style.display = "block";
 					_("display_fname").innerHTML = fname;
 					_("display_lname").innerHTML = lname;
-
 					_("display_email").innerHTML = email;
-					
-
 					_("display_gender").innerHTML = gender;
-					_("display_country").innerHTML = country;
+					_("display_member").innerHTML = member;
 					_("progressBar").value = 100;
-					_("status").innerHTML = "Data Oversigt";
+					_("status").innerHTML = "Dine oplysninger";
 				} else {
-					alert("Please choose your country");	
+					alert("Vælg venligst dit medlemsskab");	
 				}
 			}
 			function submitForm(){
 				
 				
 				_("multiphase").submit();
-				alert("Vi behandler nu din indmelding og konktakter dig herefter");
+				alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
 			}
 			</script>
 
@@ -95,36 +92,35 @@
 				<h3 id="status">Trin 1 af 3</h3>
 				<form id="multiphase" onsubmit="return false">
 				  <div id="phase1">
+					E-mail:   <input id="email" name="email"><br>
 					Fornavn:   <input id="firstname" name="firstname"><br>
 					Efternavn: <input id="lastname" name="lastname"><br>
 
-					E-mail:   <input id="email" name="email"><br>
 					
 					<button onclick="processPhase1()">Forsæt</button>
 				  </div>
 				  <div id="phase2">
-					Gender: <select id="gender" name="gender">
-					  <option value=""></option>
-					  <option value="m">Male</option>
-					  <option value="f">Female</option>
+					Køn: <select id="gender" name="gender">
+					  <option value="Mand">Mand</option>
+					  <option value="Kvinde">Kvinde</option>
 					</select><br>
 					<button onclick="processPhase2()">Forsæt</button>
 				  </div>
 				  <div id="phase3">
-					Country: <select id="country" name="country">
-					  <option value="United States">United States</option>
-					  <option value="India">India</option>
-					  <option value="United Kingdom">United Kingdom</option>
+					Medlemsskab: <select id="member" name="member">
+					  <option value="Junior">Junior</option>
+					  <option value="Voksen">Voksen</option>
+					  <option value="Pensionist">Pensionist</option>
 					</select><br>
 					<button onclick="processPhase3()">Forsæt</button>
 				  </div>
 				  <div id="show_all_data">
+					E-mail: <span id="display_email"></span> <br>
 					Fornavn: <span id="display_fname"></span> <br>
 					Efternavn: <span id="display_lname"></span> <br>
-					E-mail: <span id="display_email"></span> <br>
-					Gender: <span id="display_gender"></span> <br>
-					Country: <span id="display_country"></span> <br>
-					<button onclick="submitForm()">Indmeld</button>
+					Køn: <span id="display_gender"></span> <br>
+					Medlemsskab: <span id="display_member"></span> <br>
+					<button onclick="submitForm()">Bekræft dine oplysninger</button>
 				  </div>
 				</div>
 				</form>

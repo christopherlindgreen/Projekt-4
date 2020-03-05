@@ -459,8 +459,8 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-top: 10px;
-  display: flex;
+  margin-top: 200px;
+  
   justify-content: center;
 }
 

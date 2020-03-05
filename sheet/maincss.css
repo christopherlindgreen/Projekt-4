@@ -384,7 +384,7 @@ form#multiphase{    font-family: Spartan;
     margin: 5px;
     border: #cfc1af;
     width: 300px;
-    height: 150px; }
+    height: 350px; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 #status {font-family: Spartan;}

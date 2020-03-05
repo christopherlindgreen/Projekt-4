@@ -216,15 +216,18 @@ function playPauseSlides() {
 
 /*indmeldelse */
 
+
+
 		
 			var fname, lname, email, gender, member;
 			function _(x){
 				return document.getElementById(x);
 			}
 			function processPhase1(){
+                email = _("email").value;
 				fname = _("firstname").value;
 				lname = _("lastname").value;
-				email = _("email").value;
+				
 
 				
 

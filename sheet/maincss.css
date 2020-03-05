@@ -433,6 +433,8 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 #display_member {font-family: Spartan;}
 
+option {font-family: Spartan;}
+
 button {  font-family: Spartan;
     background-color: #f7eee2;
     padding: 8px 8px 8px 8px;

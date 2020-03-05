@@ -92,8 +92,6 @@ function changeImg(changeDir) {
 
     }
 
-
-
 }
 
 // dette er en kontakt formular til kontakt siden
@@ -121,6 +119,4 @@ function submitForm(){
 	}
   ajax.send( formdata );
 }
-	ajax.send( formdata );}
-
 /* slideshow forside */

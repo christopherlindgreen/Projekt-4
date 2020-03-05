@@ -200,7 +200,9 @@ aside{
   "gallery-p gallery-p gallery-p"
   "gallery-h2 gallery-h2 gallery-h2"
   "img1 img2 img3"
-  "img4 img5 img6";
+  "img4 img5 img6"
+  "img7 img8 img9"
+  "img10 img11 img12";
 
 }
 
@@ -232,32 +234,62 @@ aside{
 
 #index-gallery .img1 {
   grid-area: img1;
-  background-image: url(../img/14.png);
+  background-image: url(../img/14.jpg);
 }
 
 #index-gallery .img2 {
   grid-area: img2;
-  background-image: url(../img/9.png);
+  background-image: url(../img/9.jpg);
 }
 
 #index-gallery .img3 {
   grid-area: img3;
-  background-image: url(../img/8.png);
+  background-image: url(../img/8.jpg);
 }
 
 #index-gallery .img4 {
   grid-area: img4;
-  background-image: url(../img/10.png);
+  background-image: url(../img/12.jpg);
 }
 
 #index-gallery .img5 {
   grid-area: img5;
-  background-image: url(../img/11.png);
+  background-image: url(../img/7.jpg);
 }
 
 #index-gallery .img6 {
   grid-area: img6;
-  background-image: url(../img/12.png);
+  background-image: url(../img/15.jpg);
+}
+
+#index-gallery .img7 {
+  grid-area: img7;
+  background-image: url(../img/18.jpg);
+}
+
+#index-gallery .img8 {
+  grid-area: img8;
+  background-image: url(../img/19.jpg);
+}
+
+#index-gallery .img9 {
+  grid-area: img9;
+  background-image: url(../img/20.jpg);
+}
+
+#index-gallery .img10 {
+  grid-area: img10;
+  background-image: url(../img/11.jpg);
+}
+
+#index-gallery .img11 {
+  grid-area: img11;
+  background-image: url(../img/10.jpg);
+}
+
+#index-gallery .img12 {
+  grid-area: img12;
+  background-image: url(../img/16.jpg);
 }
 
 .gallery-img div {
@@ -271,7 +303,7 @@ aside{
 }
 
 .gallery-img a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Spartan;
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -314,7 +346,7 @@ aside{
   position: fixed;
   top: 48vh;
   z-index: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Spartan;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
@@ -333,7 +365,7 @@ aside{
   position: fixed;
   top: 48vh;
   z-index: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Spartan;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
@@ -343,8 +375,15 @@ aside{
   opacity: 0.8;
 }
 
+/*indmelding*/
 
-form#multiphase{  border:#000 1px solid; padding:24px; width:350px; }
+form#multiphase{    font-family: Spartan;
+    background-color:#cfc1af;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    border: #cfc1af;
+    width: 200px;; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 .indmelding{
@@ -544,5 +583,8 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
   margin: 600px -200px 0px 53.5%;
 }
 #news{
-  
+}
+
+.captionText{
+  font-family: Spartan;
 }

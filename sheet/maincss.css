@@ -168,11 +168,10 @@ aside{
 /* Kalender */
   
 .reskald {
-  overflow: hidden;
+overflow: hidden;
 padding-top: 56.25%;
 position: relative;
 }
-
 
 .reskald iframe{
   border: 0;

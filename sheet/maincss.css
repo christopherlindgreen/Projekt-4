@@ -168,22 +168,20 @@ aside{
 .kalender {
   display: flex;
   margin-left: 15%;
-  top: 100px;
 }
 
 .reskald {
   padding-bottom: 60%;
-  height: 0;
   overflow: hidden;
 }
 
 
 .reskald .kalender{
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 0;
     width: 80%;
-    height: 80%;
+    height: 70%;
   
 }
 
@@ -197,7 +195,6 @@ aside{
   margin-left: 250px;
   margin-right: 50px;
   grid-template-areas: 
-  "gallery-p gallery-p gallery-p"
   "gallery-h2 gallery-h2 gallery-h2"
   "img1 img2 img3"
   "img4 img5 img6"
@@ -378,13 +375,75 @@ aside{
 /*indmelding*/
 
 form#multiphase{    font-family: Spartan;
+   
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    border: #cfc1af;
+    width: 300px;
+    height: 150px; }
+form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
+
+#status {font-family: Spartan;}
+
+#phase1 {font-family: Spartan;
+}
+
+#email {
+    font-family: Spartan;
     background-color:#cfc1af;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
     margin: 5px;
     border: #cfc1af;
-    width: 200px;; }
-form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
+    width: 200px;}
+
+#firstname {font-family: Spartan;
+    background-color:#cfc1af;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    border: #cfc1af;
+    width: 200px;}
+
+    #lastname
+    {font-family: Spartan;
+    background-color:#cfc1af;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    border: #cfc1af;
+    width: 200px;}
+
+
+
+#phase2 {font-family: Spartan;}
+
+#phase3 {font-family: Spartan;}
+
+#show_all_data {font-family: Spartan;}
+
+#display_email {font-family: Spartan;}
+
+#display_fname {font-family: Spartan;}
+
+#display_lname {font-family: Spartan;}
+
+#display_gender {font-family: Spartan;}
+
+#display_member {font-family: Spartan;}
+
+button {  font-family: Spartan;
+    background-color: #f7eee2;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 5px;
+    border: #cfc1af;
+    border-style: solid;}
+
+button:hover {  background-color: #cfc1af;
+    cursor: pointer;
+    color:#ffffff;}
 
 .indmelding{
   margin-left: 500px;

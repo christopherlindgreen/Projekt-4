@@ -11,6 +11,7 @@ body{background-color: #f7eee2;}
         list-style: none;
         text-decoration: none;
         font-family: bebas neue;
+        overflow: hidden;
       }
       
       .flexmenu{
@@ -106,8 +107,8 @@ h1{
 aside{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    margin-left: -300px;            
+    margin-top: 20px;
+    margin-left: 300px;            
 }
 
 
@@ -203,6 +204,7 @@ position: relative;
 #index-gallery .gallery-img {
   background-repeat: no-repeat;
   height: 300px;
+  width: 100%;
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -457,8 +459,9 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-top: 100px;
-  margin-left: -300px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /*slideshow til forside*/

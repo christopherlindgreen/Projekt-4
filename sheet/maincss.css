@@ -11,7 +11,7 @@ body{background-color: #f7eee2;}
         list-style: none;
         text-decoration: none;
         font-family: bebas neue;
-        overflow: hidden;
+        overflow-x: hidden;
       }
       
       .flexmenu{
@@ -168,11 +168,10 @@ aside{
 /* Kalender */
   
 .reskald {
-  overflow: hidden;
+overflow: hidden;
 padding-top: 56.25%;
 position: relative;
 }
-
 
 .reskald iframe{
   border: 0;

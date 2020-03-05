@@ -200,7 +200,8 @@ aside{
   "gallery-p gallery-p gallery-p"
   "gallery-h2 gallery-h2 gallery-h2"
   "img1 img2 img3"
-  "img4 img5 img6";
+  "img4 img5 img6"
+  "img7 img8 img9";
 
 }
 
@@ -232,32 +233,47 @@ aside{
 
 #index-gallery .img1 {
   grid-area: img1;
-  background-image: url(../img/14.png);
+  background-image: url(../img/14.jpg);
 }
 
 #index-gallery .img2 {
   grid-area: img2;
-  background-image: url(../img/9.png);
+  background-image: url(../img/9.jpg);
 }
 
 #index-gallery .img3 {
   grid-area: img3;
-  background-image: url(../img/8.png);
+  background-image: url(../img/8.jpg);
 }
 
 #index-gallery .img4 {
   grid-area: img4;
-  background-image: url(../img/10.png);
+  background-image: url(../img/12.jpg);
 }
 
 #index-gallery .img5 {
   grid-area: img5;
-  background-image: url(../img/11.png);
+  background-image: url(../img/7.jpg);
 }
 
 #index-gallery .img6 {
   grid-area: img6;
-  background-image: url(../img/12.png);
+  background-image: url(../img/15.jpg);
+}
+
+#index-gallery .img7 {
+  grid-area: img7;
+  background-image: url(../img/18.jpg);
+}
+
+#index-gallery .img8 {
+  grid-area: img8;
+  background-image: url(../img/19.jpg);
+}
+
+#index-gallery .img9 {
+  grid-area: img9;
+  background-image: url(../img/20.jpg);
 }
 
 .gallery-img div {

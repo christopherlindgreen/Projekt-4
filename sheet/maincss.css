@@ -101,14 +101,13 @@ h1{
 .hjerni{
     width: 500px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-right: 20px;
 }
 
 aside{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
     margin-left: 300px;            
 }
 
@@ -170,8 +169,7 @@ aside{
   
 .reskald {
 overflow: hidden;
-padding-top: 56.25%;
-position: relative;
+position: initial;
 }
 
 .reskald iframe{
@@ -182,6 +180,7 @@ position: relative;
   top: 0;
   width: 80%;
   margin-left: 220px;
+  margin-top: 100px;
 }
 
 #index-gallery {

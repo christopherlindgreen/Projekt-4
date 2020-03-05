@@ -354,6 +354,26 @@ form#multiphase{    font-family: Spartan;
     width: 200px;; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
+#status {font-family: Spartan;}
+
+#phase1 {font-family: Spartan;}
+
+#phase2 {font-family: Spartan;}
+
+#phase3 {font-family: Spartan;}
+
+#show_all_data {font-family: Spartan;}
+
+#display_email {font-family: Spartan;}
+
+#display_fname {font-family: Spartan;}
+
+#display_lname {font-family: Spartan;}
+
+#display_gender {font-family: Spartan;}
+
+#display_member {font-family: Spartan;}
+
 .indmelding{
   margin-left: 500px;
   margin-top: 100px;

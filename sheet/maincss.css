@@ -287,7 +287,7 @@ aside{
 }
 
 .gallery-img a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Spartan;
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -330,7 +330,7 @@ aside{
   position: fixed;
   top: 48vh;
   z-index: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Spartan;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
@@ -349,7 +349,7 @@ aside{
   position: fixed;
   top: 48vh;
   z-index: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Spartan;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
@@ -565,4 +565,8 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
   color: #2f2f2f;
   position: absolute;
   margin: 600px -200px 0px 53.5%;
+}
+
+.captionText{
+  font-family: Spartan;
 }

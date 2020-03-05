@@ -109,6 +109,10 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 5000);
 }
+           let getfullImgUrl = getElementCss.getPropertyValue("background-image");
+           let getImgUrlPos = getFullImgUrl.split("");
+           alert(getfullImgUrl);
+    };
 
 // dette er en kontakt formular til kontakt siden
 function _(id){ return document.getElementById(id); }
@@ -134,5 +138,6 @@ function submitForm()
 			}
 		}
 	}
-	ajax.send( formdata );
-}
+	ajax.send( formdata );}
+
+/* slideshow forside */

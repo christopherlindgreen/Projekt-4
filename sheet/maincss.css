@@ -4,7 +4,7 @@
 body{background-color: #f7eee2;}
 
 /* sidemenu */
-    *{
+      *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -358,9 +358,9 @@ aside{
 form#multiphase{  border:#000 1px solid; padding:24px; width:350px; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
-
-
 .indmelding{
-    margin-left: 500px;
-    margin-top: 100px;
+  margin-left: 500px;
+  margin-top: 100px;
 }
+
+/*slideshow til forside*/

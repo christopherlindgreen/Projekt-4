@@ -24,7 +24,7 @@ body{background-color: #f7eee2;}
         background: #cfc1af;
         padding: 30px 0px;
         position: fixed;
-      }
+        }
       
       .flexmenu .sidemenu ul li{
         padding: 15px;
@@ -372,6 +372,10 @@ position: relative;
 
 /*indmelding*/
 
+#progressBar{
+  margin-bottom: 20px;
+}
+
 form#multiphase{    font-family: Spartan;
    
     padding: 10px 10px 10px 10px;
@@ -385,6 +389,14 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 #status {font-family: Spartan;}
 
 #phase1 {font-family: Spartan;
+}
+
+#gender {
+  font-family: Spartan;
+}
+
+#member {
+  font-family: Spartan;
 }
 
 #email {
@@ -431,6 +443,8 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 #display_member {font-family: Spartan;}
 
+option {font-family: Spartan;}
+
 button {  font-family: Spartan;
     background-color: #f7eee2;
     padding: 8px 8px 8px 8px;
@@ -444,8 +458,8 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-left: 500px;
   margin-top: 100px;
+  margin-left: -300px;
 }
 
 /*slideshow til forside*/
@@ -456,6 +470,7 @@ button:hover {  background-color: #cfc1af;
   margin-left: 200px;
   user-select: none;
   box-sizing: border-box;
+  position: relative;
 }
 .galleryContainer .slideShowContainer{
   width: 100%;
@@ -635,16 +650,13 @@ button:hover {  background-color: #cfc1af;
   font-family: bebas neue;
   font-size: 40px;
   color: #2f2f2f;
-  position: absolute;
-  margin: 50% -200px 0px 52.5%;
-}
+  margin-left: 50%;
+  }
 #news{
-  margin: 56% -200px 0px 250px;
-  position: absolute;
+  margin-left: 20%;  
 }
 .broed{
-  margin: 60% 0px 0px 250px;
-  position: absolute;
+  margin-left: 20%;
   font-family: Spartan;
 }
 .captionText{

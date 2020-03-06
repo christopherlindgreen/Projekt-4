@@ -381,10 +381,10 @@ form#multiphase{    font-family: Spartan;
    
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    margin: 5px;
+    margin-top: 10px;
     border: #cfc1af;
-    width: 300px;
-    height: 350px; }
+    width: 270px;
+    height: 370px; }
 form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
 
 #status {font-family: Spartan;}
@@ -405,15 +405,15 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
     background-color:#cfc1af;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    margin: 5px;
+    margin-top: 5px;
     border: #cfc1af;
-    width: 200px;}
+    width: 80%;}
 
 #firstname {font-family: Spartan;
     background-color:#cfc1af;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    margin: 5px;
+    margin-top: 5px;
     border: #cfc1af;
     width: 200px;}
 
@@ -422,7 +422,7 @@ form#multiphase > #phase2, #phase3, #show_all_data{ display:none;  }
     background-color:#cfc1af;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    margin: 5px;
+    margin-top: 5px;
     border: #cfc1af;
     width: 200px;}
 
@@ -450,7 +450,7 @@ button {  font-family: Spartan;
     background-color: #f7eee2;
     padding: 8px 8px 8px 8px;
     border-radius: 10px 10px 10px 10px;
-    margin-left: 5px;
+    
     border: #cfc1af;
     border-style: solid;}
 
@@ -460,15 +460,17 @@ button:hover {  background-color: #cfc1af;
 
 .indmelding{
   margin-top: 150px;
+  margin-left:-195px;
+  margin-right:80px ;
 }
 
 .medlem{
 
     background-color: #cfc1af;
     width: 270px;
-    height: 380px;
+    
     border-radius: 10px 10px 10px 10px;
-    margin-top: 190px;
+    margin-top: 150px;
     padding: 20px;
 }
 
@@ -669,15 +671,20 @@ button:hover {  background-color: #cfc1af;
   font-family: bebas neue;
   font-size: 40px;
   color: #2f2f2f;
-  margin-left: 50%;
+  margin: 0px 0px 2% 55%;
   }
-#news{
-  margin-left: 20%;  
+.news{
+  margin-left: 55%;  
 }
 .broed{
-  margin-left: 20%;
+  margin: 0px 4% 2% 55%;
   font-family: Spartan;
 }
 .captionText{
   font-family: Spartan;
+}
+#brain{
+  width: 40%;
+  margin: -26% 0px 0px 15%;
+  position: absolute;
 }

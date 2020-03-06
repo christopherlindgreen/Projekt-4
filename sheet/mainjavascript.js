@@ -96,7 +96,7 @@ function changeImg(changeDir) {
 
 // dette er en kontakt formular til kontakt siden
 function _(id){ return document.getElementById(id); }
-function submitForm(){
+function submitForm(kontaktside){
   
   alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
 	_("mybtn").disabled = true;

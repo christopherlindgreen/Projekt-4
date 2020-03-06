@@ -671,15 +671,20 @@ button:hover {  background-color: #cfc1af;
   font-family: bebas neue;
   font-size: 40px;
   color: #2f2f2f;
-  margin-left: 50%;
+  margin: 0px 0px 2% 55%;
   }
 .news{
-  margin-left: 20%;  
+  margin-left: 55%;  
 }
 .broed{
-  margin: 0px 0px 2% 20%;
+  margin: 0px 4% 2% 55%;
   font-family: Spartan;
 }
 .captionText{
   font-family: Spartan;
+}
+#brain{
+  width: 40%;
+  margin: -26% 0px 0px 15%;
+  position: absolute;
 }

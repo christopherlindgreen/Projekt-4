@@ -272,6 +272,49 @@ function playPauseSlides() {
 				
 				_("multiphase").submit();
 				alert("Tak for din henvendelse! Vi konktakter dig inden for to dage");
-			}
-			
+            }
+            
 
+
+
+/**
+ * Smooth scroll to section
+ */
+// Get all elements with the data-scroll attribute
+var dataScroll = document.querySelectorAll('[data-scroll]');
+// Navigation height
+var navigationHeight = 75;
+
+// Scroll to a section with an id that matches scrollID
+function scrollToElement(scrollID) {
+    // Get element with the id scrollID
+    var scrollElement = document.getElementById(scrollID);
+    // Get distance from top of element to top of page
+    var distance = window.pageYOffset + scrollElement.getBoundingClientRect().top;
+
+    // Scroll to distance variable minus the navigation height
+    window.scroll({
+        top: distance - navigationHeight,
+        behavior: 'smooth'
+    });
+}
+
+// Function to add event listeners for smooth scroll to section
+function initSmoothScroll() {
+    // Loop through the dataScroll array and add a click event listener
+    for (var i = 0; i < dataScroll.length; i++) {
+        var element = dataScroll[i];
+
+        element.addEventListener('click', function (event) {
+            // Prevent default link behavior
+            event.preventDefault();
+            console.log('test');
+
+            // Get id from data-scroll attribute and pass it to scrollToElement
+            var scrollID = this.getAttribute('data-scroll');
+            scrollToElement(scrollID)
+        });
+    }
+}
+
+initSmoothScroll();

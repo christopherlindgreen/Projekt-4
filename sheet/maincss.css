@@ -216,6 +216,56 @@ position: initial;
 
 }
 
+
+@media screen and (max-width: 800px) {
+#index-gallery {
+  display: grid;
+  grid-template-rows: auto;
+  width: 65%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 50px;
+  grid-template-areas: 
+  "gallery-h2 gallery-h2"
+  "img1 img2"
+  "img3 img4"
+  "img5 img6"
+  "img7 img8"
+  "img9 img10"
+  "img11 img12";
+
+
+}
+}
+
+@media screen and (max-width: 600px) {
+#index-gallery {
+  display: grid;
+  grid-template-rows: auto;
+  width: 50%;
+  grid-template-columns: 1fr;
+  grid-gap: 10px 10px;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 50px;
+  grid-template-areas: 
+  "gallery-h2"
+  "img1"
+  "img2"
+  "img3"
+  "img4"
+  "img5"
+  "img6"
+  "img7"
+  "img8"
+  "img9"
+  "img10"
+  "img11"
+  "img12";
+}}
+
 #index-gallery .gallery-img {
   background-repeat: no-repeat;
   height: 300px;

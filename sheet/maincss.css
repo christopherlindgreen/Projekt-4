@@ -671,11 +671,11 @@ button:hover {  background-color: #cfc1af;
   color: #2f2f2f;
   margin-left: 50%;
   }
-#news{
+.news{
   margin-left: 20%;  
 }
 .broed{
-  margin-left: 20%;
+  margin: 0px 0px 2% 20%;
   font-family: Spartan;
 }
 .captionText{

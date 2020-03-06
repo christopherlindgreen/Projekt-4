@@ -3,14 +3,14 @@ let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 
 if(galleryImages) {
-    galleryImages.forEach(function(image, index) {
+    galleryImages.forEach(function(image, galleri) {
        image.onclick = function() {
            let getElementCss = window.getComputedStyle(image);
            let getFullImgUrl = getElementCss.getPropertyValue("background-image");
            let getImgUrlPos = getFullImgUrl.split("/img/");
            let setNewImgUrl = getImgUrlPos[1].replace('")', '');
            
-           getLatestOpenedImg = index + 1;
+           getLatestOpenedImg = galleri + 1;
 
            let container = document.body;
            let newImgWindow = document.createElement("div");
@@ -75,7 +75,7 @@ function changeImg(changeDir) {
         }
     }
 
-    newImg.setAttribute("src", "img/img" + calcNewImg + ".png");
+    newImg.setAttribute("src", "projekt-4/img/" + calcNewImg + ".jpg");
     newImg.setAttribute("id", "current-img");
 
     getLatestOpenedImg = calcNewImg;

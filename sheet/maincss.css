@@ -694,12 +694,13 @@ button:hover {  background-color: #cfc1af;
 .broed{
   margin: 0px 4% 2% 55%;
   font-family: Spartan;
+  line-height: 30px;
 }
 .captionText{
   font-family: Spartan;
 }
 #brain{
   width: 40%;
-  margin: -35% 0px 0px 15%;
+  margin: -50% 0px 0px 15%;
   position: absolute;
 }

@@ -524,18 +524,15 @@ button:hover {  background-color: #cfc1af;
     color:#ffffff;}
 
 .indmelding{
-  margin-top: 150px;
-  margin-left:-195px;
-  margin-right:100px ;
+  margin: 8% 0px 0px 32%;
 }
 
 .medlem{
 
     background-color: #cfc1af;
     width: 270px;
-    margin-bottom: 200px;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 150px;
+    margin: -35% 0px 0px 60%;
     padding: 20px;
 }
 

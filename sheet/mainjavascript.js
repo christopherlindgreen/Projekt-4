@@ -222,7 +222,7 @@ function playPauseSlides() {
 // Get all elements with the data-scroll attribute
 var dataScroll = document.querySelectorAll('[data-scroll]');
 // Navigation height
-var navigationHeight = 75;
+var navigationHeight = 140;
 
 // Scroll to a section with an id that matches scrollID
 function scrollToElement(scrollID) {
